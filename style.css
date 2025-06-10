@@ -220,6 +220,84 @@ h3 {
 
 /* More about me */
 
+.skill-name {
+  clear: both;
+}
+
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 18em;
+}
+
+.section__title--about {
+  color: var(--clr-light);
+}
+
+.about-me__body {
+  color: var(--clr-light);
+}
+
+.skills {
+  justify-content: space-between;
+  width: max-content;
+  padding-top: 100px;
+  flex-direction: row;
+  margin: 0 auto;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.skills-card {
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 15px;
+  margin-bottom: 15px;
+  min-width: 100px;
+  max-width: 150px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  float: left;
+  color: var(--clr-light);
+}
+
+@media (min-width: 600px) {
+  .about-me {
+    justify-content: center;
+    color: var(--clr-light);
+  }
+
+  .section__title--about {
+    grid-area: title;
+  }
+
+  .section__subtitle--about {
+    grid-column: 1 / -1;
+    grid-row: 2em;
+    position: relative;
+    left: -2em;
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+    color: var(--clr-dark);
+  }
+
+  .about-me__img {
+    position: relative;
+  }
+}
+
+@media (max-width: 880px) {
+  .skills {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+  }
+}
+
 /* School and Work Experiences */
 
 /* Footer */
