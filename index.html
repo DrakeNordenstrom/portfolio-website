@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fixes for mobile and desktop viewing -->
+    <title>Drake Nordenstrom's Portfolio Website</title>
+    <link rel="stylesheet" href="all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- link makes it so each browser will make webpage look the same -->
+    <!-- gonna be used for the social icons -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Introduction -->
+    <section
+      class="intro"
+      id="home"
+      data-aos="fade-up"
+      data-aos-delay="700"
+      data-aos-duration="2800"
+    >
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Drake Nordenstrom</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Software Developer | Recent Graduate from University of Minnesota - Twin Cities
+      </p>
+      <img
+        src="./images/pictureofme.jpg"
+        alt="Picture of me"
+        class="intro__img"
+      />
+    </section>
+    <!-- End Introduction -->
+
+    <!-- About Me -->
+    <section class="about-me" id="about"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1900">
+      <h2 class="section__title section__title--about">Skills</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Utilized during internship at Entrust or for projects
+      </p>
+
+      <div
+        class="about-me__body"
+      >
+      </div>
+    </section>
+    <!-- End About Me -->
+
+    <!-- School and Work Experiences -->
+    <section>
+      <div class="internship-experience">
+        <div class="school-and-work-experiences" id="sawe">
+          <h2
+            class="section__title section__title--sawe"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            data-aos-duration="1500"
+            style="color: #312f2f;"
+          >
+            Work Experience
+          </h2>
+      <!-- </div> -->
+      <div class="work-btn">
+        <a
+          href="./files/DrakeNordenstromCV.pdf"
+          class="btn"
+          data-aos="zoom-out"
+          aos-duration="4000"
+          download="Drake Nordenstrom's Resume"
+          >My Resume</a
+        >
+      </div>
+      
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:drakegnordenstrom@gmail.com" class="footer-link"
+        >Contact Me: drakegnordenstrom@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/drake-nordenstrom-3828b6258/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/DrakeNordenstrom"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
