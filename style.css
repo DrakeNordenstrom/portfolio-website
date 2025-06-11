@@ -300,6 +300,96 @@ h3 {
 
 /* School and Work Experiences */
 
+.school-and-work-experiences {
+  /* background-color: var(--clr-dark); */
+  color: var(--clr-light);
+  background-blend-mode: multiply;
+  text-align: center;
+}
+
+.section__title--sawe {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--sawe::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.25;
+}
+
+.sawe-div {
+  margin-bottom: 4em;
+  margin-top: 4em;
+  width: 100%;
+  height: auto;
+}
+
+.sawe-div__description {
+  margin-left: 4em;
+  margin-top: 3em;
+}
+
+.sawe {
+  /* background-color: #faf9f9; */
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+
+.sawes {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+}
+
+.entrust-logo {
+  border: 0.2rem solid #800080;
+  box-shadow: 0 0 20px 1px #800080;
+  width: 300px;
+  height: auto;
+}
+
+@media (min-width: 800px) {
+  .sawe-div {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sawes + .sawes {
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .sawe-div__description {
+    margin: auto;
+    margin-top: 4em;
+  }
+
+  .entrust-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+}
+
+.work-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* My Work */
+
 /* Footer */
 
 .footer {
